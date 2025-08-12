@@ -294,6 +294,7 @@ return [
     'base_url' => env('SMS_NIAGA_BASE_URL', 'https://manage.niagaSms.xyz'),
     'api_token' => env('SMS_NIAGA_API_TOKEN'),
     'timeout' => env('SMS_NIAGA_TIMEOUT', 30),
+    'sender_id' => env('NIAGA_SMS_SENDER_ID'),
 ];
 ```
 
