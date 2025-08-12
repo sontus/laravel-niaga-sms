@@ -1,0 +1,38 @@
+{
+    "name": "sontus/laravel-niaga-sms",
+    "description": "Laravel package for sending SMS using SMS Niaga API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sontus Chandra Anik",
+            "email": "info.sontus@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sontus\\LaravelNiagaSms\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^12.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.8",
+        "orchestra/testbench": "^7.0|^8.0|^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sontus\\LaravelNiagaSms\\NiagaSmsServiceProvider"
+            ],
+            "aliases": {
+                "SmsNiaga": "Sontus\\LaravelNiagaSms\\Facades\\NiagaSms"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
