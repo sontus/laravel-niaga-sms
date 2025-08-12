@@ -21,7 +21,7 @@ A Laravel package for sending SMS messages using the SMS Niaga API. This package
 
 - PHP 8.0 or higher
 - Laravel 9.0 or higher
-- SMS Niaga account with API token
+- SMS Niaga account with API token and Sender_id
 
 ## Installation
 
